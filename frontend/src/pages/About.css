@@ -1,9 +1,15 @@
 .about-container {
-    text-align: center;
-    padding: 50px;
-    background: linear-gradient(135deg, #1e1e2f, #252542);
-    color: white;
-    min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;  /* Use min-height to ensure full coverage */
+  width: 100vw;       /* Ensures full width */
+  background: linear-gradient(135deg, #1e1e2f, #252542);
+  color: white;
+  text-align: center;
+  position: fixed;    /* Ensures it stays full-screen */
+  top: 0;
+  left: 0;
   }
   
   .about-container h1 {

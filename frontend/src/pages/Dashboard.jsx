@@ -1,11 +1,18 @@
+import React from "react";
+import "./dashboard.css"; // CSS file for styling
+
 const Dashboard = () => {
-    return (
-      <div className="text-center p-10">
-        <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Dashboard Page</h1>
-        <p className="text-gray-600 dark:text-gray-300">Track your learning here.</p>
+  return (
+    <div className="dashboard-container">
+      <div className="dashboard-content">
+        <h1>📊 Dashboard Coming Soon</h1>
+        <p>We are working hard to bring you an amazing dashboard. Stay tuned!</p>
+        <div className="coming-soon-box">
+          <p>🚀 New features launching soon!</p>
+        </div>
       </div>
-    );
-  };
-  
-  export default Dashboard;
-  
+    </div>
+  );
+};
+
+export default Dashboard;

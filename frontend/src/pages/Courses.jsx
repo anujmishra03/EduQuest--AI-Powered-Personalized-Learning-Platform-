@@ -1,11 +1,18 @@
+import React from "react";
+import "./courses.css"; // CSS file for styling
+
 const Courses = () => {
-    return (
-      <div className="text-center p-10">
-        <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Courses Page</h1>
-        <p className="text-gray-600 dark:text-gray-300">Coming Soon...</p>
+  return (
+    <div className="courses-container">
+      <div className="courses-content">
+        <h1>📚 Courses Coming Soon</h1>
+        <p>We are working hard to bring you amazing courses. Stay tuned!</p>
+        <div className="coming-soon-box">
+          <p>🚀 New courses launching soon!</p>
+        </div>
       </div>
-    );
-  };
-  
-  export default Courses;
-  
+    </div>
+  );
+};
+
+export default Courses;
