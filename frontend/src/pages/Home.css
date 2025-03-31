@@ -1,0 +1,60 @@
+.home-container {
+  min-height: 100vh;  /* Ensure full height */
+  width: 100%;
+  background: linear-gradient(135deg, #1e1e2f, #252542);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  }
+  
+  .hero {
+    margin-bottom: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  .explore-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .explore-btn:hover {
+    background-color: #ffa500;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card {
+    width: 30%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  

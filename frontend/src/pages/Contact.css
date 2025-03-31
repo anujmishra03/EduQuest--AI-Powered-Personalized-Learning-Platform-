@@ -1,0 +1,33 @@
+.contact-container {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(120deg, #1a1a2e, #16213e);
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .contact-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .contact-container p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    backdrop-filter: blur(10px);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
